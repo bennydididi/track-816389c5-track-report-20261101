@@ -1,0 +1,6965 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>图片转激光DXF-56分 · 完整证据包</title><style>body{margin:0;font-family:-apple-system,"PingFang SC","Noto Sans SC",sans-serif;background:#0f1419;color:#e7ecf3;line-height:1.65}
+.top{position:sticky;top:0;background:#0f1419ee;border-bottom:1px solid #2a3548;padding:8px 16px}.top a{color:#9aa8bc;margin-right:10px;font-size:13px;text-decoration:none}
+.wrap{max-width:980px;margin:0 auto;padding:20px}a{color:#5b9fd4}table{border-collapse:collapse;display:block;overflow-x:auto}td,th{border:1px solid #2a3548;padding:4px 8px}
+pre,code{background:#121a26;white-space:pre-wrap}h2.sec{border-top:2px solid #5b9fd4;padding-top:16px;margin-top:40px}</style></head><body><div class="top"><a href="#report">完整报告</a><a href="#serp">serp.md</a><a href="#sop-criteria">sop-criteria.md</a><a href="#sop-v3">sop-v3.md</a><a href="#files">证据文件</a></div><div class="wrap"><section id="report"><h2 class="sec">完整报告</h2><p>这个产品帮助需要向激光切割软件交付文件的创作者，在只有 PNG/JPG 标志、剪影或线稿的场景下，解决轮廓难清理、尺寸不确定、难以导出合用 DXF 的问题。</p>
+<h2 id="_1">需求判断卡</h2>
+<table>
+<thead>
+<tr>
+<th>判断项</th>
+<th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>① 做不做</td>
+<td><strong>不做：暂不立独立收费站。</strong> 图片→DXF 有真实需求；但“干净轮廓＋尺寸”已有免费供给，当前切口的独立付款与质量优势尚未证明。保留新域名单页验证方案，不等同建议铺站。<a href="https://www.reddit.com/r/lasercutting/comments/1528o2u/jpg_to_dxf/">用户任务</a>、<a href="https://flip3d.app/png-to-dxf/">免费同任务工具</a></td>
+</tr>
+<tr>
+<td>② 只判一个任务</td>
+<td><strong>谁：</strong>需要交付 DXF 的激光创作者，包括业余用户。<strong>输入：</strong>PNG/JPG 高对比标志、剪影、线稿＋用户指定宽度。<strong>输出：</strong>按该宽度生成、可检查轮廓的 DXF（CAD 图形交换文件）。一句话产品：图片描摹成轮廓，设尺寸、查几何，再下载；不承诺所有图片免检查即可切割。普通照片、工程图重绘不在本轮。<a href="evidence/validation-plan.md">范围定义</a></td>
+</tr>
+<tr>
+<td>③ 核心词与首批页</td>
+<td>首页绑 <strong>png to dxf converter</strong>，同页承接 <strong>png to dxf</strong>；<code>/image-to-dxf</code> 承接 <strong>image to dxf / image to dxf converter</strong>；<strong>jpg to dxf</strong> 留给 <code>/jpg-to-dxf</code>，修复搜索结果数据后再排期。都是立项通过后的页面方案。<a href="evidence/final-decisions.json">关键词最终表</a></td>
+</tr>
+<tr>
+<td>④ 关键数字</td>
+<td>US 月搜：png to dxf <strong>1,900</strong>；其 converter 变体 <strong>590</strong>；image to dxf <strong>480</strong>。不能相加当独立人群。可解析快照中，image to dxf 的低 DR 占位为 Ricky Laser Art <strong>DR4</strong>；完整十席、KD、KGR、精确链接预算均<strong>未取得</strong>。最大对手及其月访问量<strong>未取得</strong>。Vectorizer.AI Web <strong>$9.99/月</strong>，Scan2CAD Pro <strong>$89/月</strong>；我方拟 <strong>$5/10次有效导出</strong>，只是验证报价。API 满额分摊约 <strong>$0.20/图</strong>，总单次成本未取得。<a href="evidence/serp-original-2026-10-30.json">量/DR</a>、<a href="https://vectorizer.ai/pricing">Vectorizer价格</a>、<a href="https://www.scan2cad.com/pricing/">Scan2CAD价格</a>、<a href="evidence/validation-plan.md">报价与成本口径</a></td>
+</tr>
+<tr>
+<td>⑤ 付费证据</td>
+<td><strong>当前任务独立真实付款：未找到；复用、第二单、续费：未取得。</strong> 官网收费项已核实，但仅定价页不算成交；激光用户自报订阅通用矢量工具，也不能证明其为 DXF 独立付费。<a href="https://www.reddit.com/r/lasercutting/comments/1fmsyr3/best_ai_for_creating_vector_or_vectorfriendly/">用户自报及上下文</a></td>
+</tr>
+<tr>
+<td>⑥ 最小版本与成本</td>
+<td>上传→轮廓叠图→选择要保留的轮廓→设 mm/inch→检查重复线/开口→DXF。免费提供检查与样例，不向刀路文件添加水印。开源不等于单次成本为零；CPU/GPU、退款和支持成本未取得。<a href="evidence/validation-plan.md">验证方案</a>、<a href="https://github.com/visioncortex/vtracer">开源引擎</a></td>
+</tr>
+<tr>
+<td>⑦ 凭什么赢</td>
+<td>只能靠<strong>同一原图上更少的人工清理，并能在用户的软件中通过尺寸与几何验收</strong>；当前尚未实测，不能把“少节点、设尺寸”写成独有优势。<a href="https://docs.lightburnsoftware.com/latest/Reference/TraceImage/">LightBurn原生优化</a>、<a href="https://flip3d.app/png-to-dxf/">免费尺寸设置</a></td>
+</tr>
+<tr>
+<td>⑧ 增长顺序</td>
+<td>若收费验证通过：PNG 转换页→通用图片同义词页→JPG 页→确有曝光的本地语言页；激光场景尾词先作为页面说明。SVG/PDF 等相邻输入不计本任务体量。<a href="evidence/page-brief.md">页面简报</a></td>
+</tr>
+<tr>
+<td>⑨ 风险与改决定的未知</td>
+<td>最大风险是免费/已购软件足够用；其次是降节点破坏孔洞或尺寸，最后变成人工修图服务。若同图对照能证明省清理，且用户为自己的 DXF 实付，才改独立站决定。通用模型生成代码与平台原生描摹都要进入对照。<a href="https://docs.lightburnsoftware.com/latest/Reference/TraceImage/">LightBurn</a>、<a href="evidence/validation-plan.md">验证方案</a></td>
+</tr>
+<tr>
+<td>⑩ 下一步验收</td>
+<td>先完成真实原图对照与成本计量；若发布单页，按 <strong>D0 提交 GSC→收录→出词→首付→复用→第二单</strong>验收。具体天数：<strong>待哥飞顾问按内页生命周期模型补</strong>；未到节点不买外链。<a href="evidence/validation-plan.md">节点与停止条件</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>三维决策：需求有；当前切口独立收费待验证；SEO 有可承接词，但暂不列为优先独立站。</strong> 这不是因“有竞品”否决，而是付款证据不足，拟定卖点又已被免费与原生功能覆盖；免费方案是否让目标用户满意，本次也没有实测结论。</p>
+<h2 id="56100">分数：56/100，仅支撑判断</h2>
+<p>原日报给“推、信心中”，<strong>未提供五项原分</strong>，不能编造前后分差。<a href="evidence/initial-report-excerpt.md">原报告节选</a></p>
+<table>
+<thead>
+<tr>
+<th>五项，每项满分5</th>
+<th>专员原分</th>
+<th style="text-align: right;">核实后分</th>
+<th>关键依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>需求真实</td>
+<td>未找到</td>
+<td style="text-align: right;">4</td>
+<td>有明确 JPG→DXF 求助；有人多年后仍通过搜索找到免费流程。近期同任务密度未取得。<a href="https://www.reddit.com/r/lasercutting/comments/1528o2u/jpg_to_dxf/">原帖及后续回复</a></td>
+</tr>
+<tr>
+<td>付费意愿</td>
+<td>未找到</td>
+<td style="text-align: right;">2</td>
+<td>当前任务用户表达买断偏好，但没有独立 PNG/JPG→DXF 付款记录；定价不能替代成交。<a href="https://www.reddit.com/r/lasercutting/comments/13tehhi/need_to_remake_a_sign_what_software_are_you_guys/">同任务用户</a></td>
+</tr>
+<tr>
+<td>好服务</td>
+<td>未找到</td>
+<td style="text-align: right;">2</td>
+<td>导出成功不等于下料合格；尺寸、孔洞、重复线和软件兼容会带来支持工作。<a href="https://dxftool.com/">竞品检查清单</a></td>
+</tr>
+<tr>
+<td>小团队做得动</td>
+<td>未找到</td>
+<td style="text-align: right;">3</td>
+<td>开源能支撑描摹，但还需 DXF 输出与几何/兼容验证；成品质量未测。<a href="https://github.com/visioncortex/vtracer">VTracer</a>、<a href="https://potrace.sourceforge.net/">Potrace</a></td>
+</tr>
+<tr>
+<td>形态简单</td>
+<td>未找到</td>
+<td style="text-align: right;">3</td>
+<td>界面可压成上传与参数，但轮廓选择、尺寸和下游验收不能省。<a href="https://www.svggenie.com/tools/png-to-dxf">现成流程</a></td>
+</tr>
+</tbody>
+</table>
+<p>总分为本次研究判断：<code>(4+2+2+3+3)÷25×100=56</code>。付费项不足3，当前不推荐独立收费立项；总分不是 SEO 难度或成功概率。相邻 SVG/PDF、套料、DXF 修复的量与付款均未贡献分数。</p>
+<h2 id="_2">关键词作战表：只列首批词</h2>
+<p>月搜/CPC/DR 为 <strong>2026-10-30 PXAny 留存快照</strong>，非本次实时刷新。CPC 为美元低/高出价；Ads competition 是广告竞争，不是 SEO 难度。五词的 <strong>12个月逐月趋势、KD、KGR 均未取得</strong>；相关经验阈值待项目复核，不作硬性扣分。下表 SERP 全部不足十条，只作快照观察。<a href="evidence/serp-original-2026-10-30.json">原始量与排名</a>、<a href="evidence/final-decisions.json">最终判定</a></p>
+<table>
+<thead>
+<tr>
+<th>关键词</th>
+<th>市场/语言</th>
+<th>月搜与状态</th>
+<th>12月趋势；KD/KGR</th>
+<th>CPC低/高</th>
+<th>SERP构成、近18个月域名与最弱占位</th>
+<th>意图</th>
+<th>建议与优先级</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>png to dxf converter</td>
+<td>US/en</td>
+<td>590，返回正数</td>
+<td>均未取得</td>
+<td>$1.15/$3.70</td>
+<td>样本9：工具6、平台社区1、社交1、视频1；大站含 CloudConvert/Aspose；已知年轻域名1，最弱 Automapki DR18。<a href="evidence/final-decisions.json">数据</a></td>
+<td>直接转换；激光占比未取得</td>
+<td>P0：通过验证后绑首页；不先抢泛矢量化词</td>
+</tr>
+<tr>
+<td>png to dxf</td>
+<td>US/en</td>
+<td>1,900，返回正数</td>
+<td>均未取得</td>
+<td>$1.05/$3.75</td>
+<td>样本9：工具7、平台社区1、视频1；含 Convertio；已知年轻域名1，最弱 SVG Genie DR13。<a href="evidence/final-decisions.json">数据</a></td>
+<td>格式转换；不限激光</td>
+<td>P0：与上一词共页，不另造重复页</td>
+</tr>
+<tr>
+<td>image to dxf</td>
+<td>US/en</td>
+<td>480，返回正数</td>
+<td>均未取得</td>
+<td>$1.26/$4.05</td>
+<td>样本9：工具7、视频2；含 Convertio/Online-Convert；已知年轻域名0，最弱 Ricky Laser Art DR4，部分注册日未知。<a href="evidence/final-decisions.json">数据</a></td>
+<td>图片到CAD几何，混有其他用途</td>
+<td>P1：<code>/image-to-dxf</code>，限定高对比图</td>
+</tr>
+<tr>
+<td>image to dxf converter</td>
+<td>US/en</td>
+<td>170，返回正数</td>
+<td>均未取得</td>
+<td>$1.02/$4.35</td>
+<td>样本7：工具5、论坛1、视频1；论坛为 Reddit；已知年轻域名2，最弱 SVG Genie DR13。<a href="evidence/final-decisions.json">数据</a></td>
+<td>找现成工具</td>
+<td>P1：与 image to dxf 共页</td>
+</tr>
+<tr>
+<td>jpg to dxf</td>
+<td>US/en</td>
+<td>1,000，返回正数</td>
+<td>均未取得</td>
+<td>$1.30/$4.02</td>
+<td>原始8条均为未解析跳转，有效占位0；构成、年轻域名数、最弱占位未取得。<a href="evidence/final-decisions.json">数据</a></td>
+<td>候选同任务；实际结果待修</td>
+<td>P2：暂缓 <code>/jpg-to-dxf</code>，不能沿用旧“品牌污染”推断</td>
+</tr>
+</tbody>
+</table>
+<p><strong>建站先做哪3–5个词、各对应什么页：</strong>上表五词分配到三个页面，前两个页面先验证；JPG 页有数据质量前置条件。这里的 P0/P1 是“若立项”的顺序，不改变暂缓独立站的结论。<a href="evidence/page-brief.md">页面简报</a></p>
+<p><strong>不做的词及原因：</strong>svg to dxf、pdf to dxf 输入不同；通用 image vectorizer/jpg to svg 输出不同；laser engraving image converter 是照片雕刻；dxf for lightburn 混有文件下载/导入；工程扫描转 CAD、G-code、套料均另列。它们不补足本任务搜索量、付款或评分。<a href="kw/adjacent.txt">相邻词清单</a></p>
+<p><strong>补查了哪些、仍没拿到什么：</strong>重查上述主词及 software/app/tool/generator/AI 宽词，取得公开工具页，但未取得新的国家 Google 完整十席；重查主要 US 搜索量接口失败。原始未返回项仍保留“未返回”，没有改成0。<a href="evidence/current-volume-recheck.json">本次接口记录</a>、<a href="evidence/current-broad-serp.json">宽词网页搜索</a></p>
+<h2 id="_3">词族与宽词：主页只承接纯转换任务</h2>
+<p>父词是 image/raster to dxf；它覆盖多种 CAD 用途，<strong>其搜索量只能说明格式任务有需求，不能等同激光付费人群</strong>。首页选更直接的 png to dxf converter；同义词共页，内页按真实输入和功能差异展开。通用 vectorizer 属相邻品类，不拿来撑独立站体量。</p>
+<table>
+<thead>
+<tr>
+<th>头部表达（已进入核心词调查）</th>
+<th>US月搜状态</th>
+<th>页面处置</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>image to dxf software</td>
+<td>10，返回正数</td>
+<td>放图片页兼容说明，不单开软件页；原始搜索结果含未解析跳转</td>
+<td><a href="evidence/final-decisions.json">最终表</a></td>
+</tr>
+<tr>
+<td>ai image to dxf</td>
+<td>10，返回正数</td>
+<td>图片页解释处理方式，先核对“AI”与 Illustrator 文件意图</td>
+<td><a href="evidence/final-decisions.json">最终表</a></td>
+</tr>
+<tr>
+<td>image to dxf app</td>
+<td>0，供应商返回0</td>
+<td>不建独立 App 页，不表示无人需要</td>
+<td><a href="evidence/final-decisions.json">最终表</a></td>
+</tr>
+<tr>
+<td>image to dxf tool</td>
+<td>0，供应商返回0</td>
+<td>同义词合并进图片页</td>
+<td><a href="evidence/final-decisions.json">最终表</a></td>
+</tr>
+<tr>
+<td>image to dxf generator</td>
+<td>0，供应商返回0</td>
+<td>仅承接已有图片输入，不延伸文生图形</td>
+<td><a href="evidence/final-decisions.json">最终表</a></td>
+</tr>
+</tbody>
+</table>
+<p>本地词已覆盖 DE/FR/ES/IT/NL/JP/KR 的转换器、软件、App、AI 说法；当前不铺多语言页。US/UK/CA/AU 共用英文扩词，其他市场各用当地语言。全部候选与各国状态见<a href="evidence/keyword-full.md">全表</a>、<a href="evidence/countries.md">国家明细</a>、<a href="kw/core.txt">核心词</a>。近义词可能共享规划师分组，不汇总为市场总量。</p>
+<p>可见内页打法：Vectorizer.AI 的 <code>/image-to-dxf-converter</code>、DXFTool 的 <code>/png-to-dxf</code>、Scan2CAD 的 <code>/blog/dxf/convert/image-to-dxf/</code> 都直接承接任务；<strong>各页实际流量、出词和流量来源未取得</strong>，不能写成“主要靠这些页吃流量”。<a href="https://vectorizer.ai/image-to-dxf-converter">Vectorizer</a>、<a href="https://dxftool.com/png-to-dxf">DXFTool</a>、<a href="https://www.scan2cad.com/blog/dxf/convert/image-to-dxf/">Scan2CAD</a></p>
+<h3 id="_4">替代尾词对比</h3>
+<p>主词样本有大站，也有低 DR 工具，并非已证实十席被大站占满；更不能因年轻域名出现就判断容易进入。以下尾词意图更窄，却未证明能带来新增搜索量。</p>
+<table>
+<thead>
+<tr>
+<th>替代词</th>
+<th>US月搜状态</th>
+<th>SERP最弱占位</th>
+<th>是否同任务</th>
+<th>建议页面</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>image to dxf converter</td>
+<td>170，返回正数</td>
+<td>SVG Genie DR13；样本7条</td>
+<td>是，但激光占比未取得</td>
+<td>图片转换页</td>
+<td><a href="evidence/final-decisions.json">最终表</a></td>
+</tr>
+<tr>
+<td>jpg to dxf for laser cutting</td>
+<td>0，供应商返回0</td>
+<td>未取得；原样本9条含跳转</td>
+<td>是</td>
+<td>以后作为JPG页场景段</td>
+<td><a href="evidence/final-decisions.json">最终表</a></td>
+</tr>
+<tr>
+<td>png to dxf with dimensions</td>
+<td>0，供应商返回0</td>
+<td>未取得；原样本9条含跳转</td>
+<td>是</td>
+<td>首页尺寸模块</td>
+<td><a href="evidence/final-decisions.json">最终表</a></td>
+</tr>
+<tr>
+<td>image to dxf fewer nodes</td>
+<td>0，供应商返回0</td>
+<td>未取得；原样本8条含跳转</td>
+<td>是</td>
+<td>图片页质量模块</td>
+<td><a href="evidence/final-decisions.json">最终表</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_5">趋势</h2>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th>结果</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Google Trends US近1年</td>
+<td>未取得，页面读取失败，不能判断增长/季节性</td>
+<td><a href="https://trends.google.com/trends/explore?date=today%2012-m&amp;geo=US&amp;q=png%20to%20dxf,image%20to%20dxf">查询</a></td>
+</tr>
+<tr>
+<td>Google Trends US近5年</td>
+<td>未取得</td>
+<td><a href="https://trends.google.com/trends/explore?date=today%205-y&amp;geo=US&amp;q=png%20to%20dxf,image%20to%20dxf">查询</a></td>
+</tr>
+<tr>
+<td>12个月逐月搜索量</td>
+<td>未取得；现有文件只有月均量，不能画趋势</td>
+<td><a href="evidence/serp-original-2026-10-30.json">原始快照</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_6">对标站拆解与额外问题</h2>
+<p><strong>主对标一：Vectorizer.AI。</strong> 其图片→DXF 页已直接写明 CAD/CNC/激光用途，有上传、叠图和导出参数。DXF 下载需要订阅，未发现另设更高的 DXF 专属档；普通 Web 与自动化 API 分开收费。它是直接功能竞品，不能仅当通用 SVG 站处理。付费用户中激光 DXF 人数、收入、融资和月访问量均未取得。<a href="https://vectorizer.ai/image-to-dxf-converter">任务页</a>、<a href="https://vectorizer.ai/pricing">定价</a></p>
+<p><strong>主对标二：Scan2CAD。</strong> Pro 仍为 <strong>$89/月，按月扣费</strong>，CNC 功能包含图片转 DXF 与 G-code；官网称有数千客户，但这是全产品客户声明，不能分配给本切口。对偶发DIY“可能不划算”是价格与频率推断，<strong>未找到激光DIY用户针对当前价格的直接抱怨</strong>。Revit 用户嫌贵是另一个任务，不计分。不能把“比它便宜”当唯一卖点。<a href="https://www.scan2cad.com/pricing/">价格与客户声明</a>、<a href="https://www.scan2cad.com/cnc-features/">功能</a>、<a href="https://www.reddit.com/r/Revit/comments/13pcfv5/scan2cad_and_alternatives/">相邻抱怨，排除</a></p>
+<p><strong>dxftool.com 排名是否可持续：未证明。</strong> 初筛称其 US png to dxf 排首位；后续留存样本该词未记录到它。仅在 UK <code>png to dxf for lightburn</code> 和 CA <code>png to dxf laser</code> 各记录一席，都是原顺序第2；两组分别只解析出2/9与1/9个落地URL，不能当完整排名。DR0、注册日 <strong>2026-06-17</strong> 仅为旧接口记录，本次 RDAP 重核失败；外链数、来源、历史排名与流量未取得。<a href="evidence/serp-original-2026-10-30.json">原始记录</a>、<a href="evidence/current-final-facts.json">重核失败</a></p>
+<p>DXFTool 公开首页已有实例、教程、FAQ、检查清单和格式内页，不能仅凭 DR0 认定薄站；内容独创性、被索引页数和外链厚度未取得。PNG 页显示每图 <strong>10 credits</strong>；定价页有一次性点数包说明，但金额未找到。它不能再被直接称为免费工具。<a href="https://dxftool.com/">首页</a>、<a href="https://dxftool.com/png-to-dxf">PNG页</a>、<a href="https://dxftool.com/pricing">定价</a></p>
+<p>前三指定竞品的 Title/H1/第一屏已收进<a href="evidence/page-brief.md">页面简报</a>。补查 AnyConv 为免费 PNG→DXF；Vector Magic 的 DXF 仅列在 <strong>Desktop PC</strong>，Online 不含，不能把 Online 订阅当在线DXF对标。其本次页面显示欧元，旧美元买断价未完成重核。<a href="https://anyconv.com/png-to-dxf-converter/">AnyConv</a>、<a href="https://vectormagic.com/pricing">Vector Magic格式矩阵</a></p>
+<h2 id="_7">用户原声与付费证据</h2>
+<p><strong>同任务需求成立，但近半年新增同任务密度、独立成交仍未找到。</strong> 以下把主任务与旁证分开；没有把 SVG、已有 DXF 修复或套料算进需求强度。</p>
+<table>
+<thead>
+<tr>
+<th>用户与日期/热度</th>
+<th>原声或核实内容</th>
+<th>现用工具、卡点、付款含义</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>激光/CAD新手；2023-07-17，帖+1</td>
+<td>“What is the easiest way to convert a JPG file to a DXF file?”</td>
+<td>不知道从图片怎样得到可编辑轮廓；回复给 Inkscape 流程。2026-04-04 又有+1回复表示该流程节约时间；未提独立付款</td>
+<td><a href="https://www.reddit.com/r/lasercutting/comments/1528o2u/jpg_to_dxf/">原帖</a></td>
+</tr>
+<tr>
+<td>要重做招牌的人；2023-05-27，热度未取得</td>
+<td>现有 CAD/Radan，希望少买软件，倾向一次买断；讨论中仍需修描摹结果</td>
+<td>明确 JPG→DXF，但只是购买偏好，没有订单或价格承诺</td>
+<td><a href="https://www.reddit.com/r/lasercutting/comments/13tehhi/need_to_remake_a_sign_what_software_are_you_guys/">原帖</a></td>
+</tr>
+</tbody>
+</table>
+<p>付费材料最多保留三条，<strong>不把“旁证”升级成当前任务成交</strong>：</p>
+<ol>
+<li><strong>真实付款自报，范围更宽，不计当前切口付款分。</strong> 2024-09-22 的激光向矢量讨论中，+4 评论：“I pay the monthly subscription and it worths every cent.” 上下文提 Vectorizer，但没有说付费交付 DXF；另有用户抱怨缺失图形后回到 LightBurn。<a href="https://www.reddit.com/r/lasercutting/comments/1fmsyr3/best_ai_for_creating_vector_or_vectorfriendly/">原帖</a></li>
+<li><strong>本任务付费偏好，尚非付款。</strong> 招牌用户说“would much rather buy once than subscriptions”。支持先试一次性点数包，不能算首付、更不能算续费。<a href="https://www.reddit.com/r/lasercutting/comments/13tehhi/need_to_remake_a_sign_what_software_are_you_guys/">原帖</a></li>
+<li><strong>仅定价页。</strong> Vectorizer.AI 的订阅与 DXF 导出、Scan2CAD 的专业转换订阅均已核实；未找到二者这个细分任务的实际订单或订阅留存。官网价格只证明可售供给。<a href="https://vectorizer.ai/pricing">Vectorizer</a>、<a href="https://www.scan2cad.com/pricing/">Scan2CAD</a></li>
+</ol>
+<p>因此，“LightBurn 用户愿不愿另付 PNG→干净DXF的钱”：<strong>未找到足够直接证据，当前切口 PMF 未证明。</strong> 原日报列的三条旧链接本次均读取失败，所谓购买 Vector Magic 的原话未核实，不沿用。<a href="evidence/current-reddit-original.json">读取记录</a></p>
+<h2 id="ai">AI 压力测试与单位成本</h2>
+<table>
+<thead>
+<tr>
+<th>压力</th>
+<th>核实或推论</th>
+<th>对本产品的要求</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>已购软件原生覆盖</td>
+<td>LightBurn 官方已有阈值、去小区域、平滑、减少节点和中心线描摹，且能导出DXF。<a href="https://docs.lightburnsoftware.com/latest/Reference/TraceImage/">描摹</a>、<a href="https://docs.lightburnsoftware.com/legacy/UI/Menus">导出</a></td>
+<td>不能单靠“少节点”让这类用户再付款</td>
+</tr>
+<tr>
+<td>免费网页覆盖</td>
+<td>Flip3D 宣称本地阈值/平滑、指定毫米宽度、下载DXF；本次仅核网页，未实测质量与满意度。<a href="https://flip3d.app/png-to-dxf/">官网</a></td>
+<td>用同一原图比较清理时间，不能只比功能清单</td>
+</tr>
+<tr>
+<td>模型继续变强</td>
+<td>推论：原图分割与噪点清理会受益；通用模型写转换脚本、免费平台升级也会降低门槛。不能把“ChatGPT生成不了DXF”当壁垒；本次通用模型文件实测未取得</td>
+<td>优势必须落到可重复的几何、尺寸与兼容验收；若免费对照已满足，停止该类收费开发</td>
+</tr>
+</tbody>
+</table>
+<p><strong>成本结论：不能沿用“开源单次$0”。</strong> VTracer 是开源描摹引擎，输出SVG后还需写DXF与检查；Potrace 有DXF后端，但授权和运行方式需项目复核。没有 CPU/GPU 基准、重试率或支持工时，本次自建总单位成本写<strong>未取得</strong>。<a href="https://github.com/visioncortex/vtracer">VTracer</a>、<a href="https://potrace.sourceforge.net/">Potrace</a></p>
+<p>若用 Vectorizer API 入门档，每月 <strong>$9.99/50图</strong>；用满后约 <strong>$0.20/图</strong>。我方候选 <strong>$5/10次有效导出</strong>，十次正式矢量化约 <strong>$2</strong>，尚未计预览、未成交上传、重试、支付、支持与退款；这是条件算术，不是毛利预测。配额未用满时按图摊销更高，首月最低API支出就超过一个候选套餐售价。GPU 自建成本未取得。<a href="https://vectorizer.ai/pricing">官方价格</a>、<a href="evidence/validation-plan.md">完整成本假设</a></p>
+<h2 id="_8">验收与老站内页验证</h2>
+<p>不为本调查直接发布或收费。下一步先拿真实PNG/JPG与目标导入软件做对照，记录孔洞、开口、重复线、尺寸、节点、清理耗时；通过后才考虑单页获取付款。首付是实际付款并扣除退款；复用是另一原图的有效导出；套餐内再用不算第二单；续费只在以后采用订阅时按真实到期扣款看。<strong>四项当前均未取得，按次方案的续费不适用。</strong><a href="evidence/validation-plan.md">验证方案</a></p>
+<p>D0 提交 sitemap 与 Request Indexing→收录窗口→出词/曝光/排名→有效上传→真实付款。各节点天数待哥飞顾问按内页生命周期模型补，未到节点不买外链。免费对照已满足用户、实际成本吃光售价，或离不开人工修图时停止；无曝光先查SEO，不直接判无人买。<a href="evidence/validation-plan.md">停止条件</a></p>
+<p><strong>现有老站均不合适。</strong> RapAI、parkcapi、html-to-url、burning-bridges 的主题与图片→激光DXF不对口，未取得它们有相关转换能力的证据，不建议硬挂内页。若继续验证，选择不带他人商标的新域名单页，而非铺一批多语言站。<a href="evidence/README.md">项目给定站点口径</a></p>
+<h2 id="_9">附录：证据、全表与缺口</h2>
+<h3 id="_10">数据状态与修正</h3>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>最终记录</th>
+<th>证据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>初筛入口</td>
+<td>已读取日报与转交卡，有用户任务、核心词、付费线索类型；五项原分未找到。保留缺项，不倒填</td>
+<td><a href="evidence/initial-report-excerpt.md">初筛节选</a></td>
+</tr>
+<tr>
+<td>原始关键词记录</td>
+<td>716条市场×词：返回正数188、供应商返回0为489、未返回39；这是含相邻词的原始采集统计，不能用作主任务体量</td>
+<td><a href="evidence/countries.md">国家汇总</a>、<a href="evidence/serp-original-2026-10-30.json">原始数据</a></td>
+</tr>
+<tr>
+<td>任务清理</td>
+<td>602条保留为主任务候选，仍不能全部当激光意图；SVG、BMP及未指定图片输入的泛词单列。没有汇总主任务搜索量</td>
+<td><a href="evidence/final-decisions.json">最终表</a></td>
+</tr>
+<tr>
+<td>扩词覆盖</td>
+<td>主词文件：en67、de46、fr48、es48、it48、nl48、ja48、ko48；core94条；相邻词144条。宽词均保留，数量只作审计</td>
+<td><a href="evidence/build_final_evidence.py">构建记录</a>、<a href="kw/core.txt">核心词</a>、<a href="evidence/keyword-full.md">全量候选</a></td>
+</tr>
+<tr>
+<td>SERP完整性</td>
+<td>原始非空样本均不足10条；274组有结果，442组无结果。重定向、格式介绍、反向转换不当作已核实竞争席位</td>
+<td><a href="evidence/serp-all.md">逐条证据</a>、<a href="evidence/final-decisions.json">最终判定</a></td>
+</tr>
+<tr>
+<td>近半年Reddit全量、痛点频次</td>
+<td>未取得。目标 r/lasercutting，辅看 r/hobbycnc；Arctic网络解析失败，改用site搜索，不能声称全量或推算痛点占比</td>
+<td><a href="evidence/arctic-current-error.json">本次失败记录</a>、<a href="evidence/current-recent-final.json">搜索回退</a></td>
+</tr>
+<tr>
+<td>新搜量与国家实时Google十席</td>
+<td>未取得；PXAny网络解析失败后停止。现有原始搜索量不因此改写成0</td>
+<td><a href="evidence/current-volume-recheck.json">请求与失败</a></td>
+</tr>
+<tr>
+<td>KD/KGR/精确链接预算</td>
+<td>均未取得；KD、KGR、CPC等经验阈值待项目复核，不按阈值扣分</td>
+<td><a href="evidence/serp-original-2026-10-30.json">原始字段</a></td>
+</tr>
+<tr>
+<td>流量、出词、融资、估值、Stripe引荐</td>
+<td>未取得；原日报第三方访问量没有可重核月份与页面，不沿用。未识别“最大对手”</td>
+<td><a href="evidence/initial-report-excerpt.md">初筛旧说法</a>、<a href="evidence/current-official1.json">本次官网记录</a></td>
+</tr>
+<tr>
+<td>真实文件质量、总单位成本、首付/复用/第二单/续费</td>
+<td>未取得；本次是研究，未操作付费试用或生成文件实测</td>
+<td><a href="evidence/validation-plan.md">验证方案</a></td>
+</tr>
+<tr>
+<td>公开发布链接</td>
+<td>未取得；本次仅交付文件与证据包，无发布目标</td>
+<td><a href="evidence/README.md">交付说明</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>未返回不等于0，未查询也不等于0。</strong> 现有716条都有月搜查询记录；新增相邻列表中未在该市场实际请求的词，一律视为未查询。原始SERP无结果的记录需要区分“未过外围门槛”和“已尝试但未取得”，见最终表。原始日语28条、韩语8条未返回等缺口保留，不做小于门槛的推断。<a href="evidence/countries.md">各国明细</a></p>
+<h3 id="reddit">Reddit证据排除与方法</h3>
+<p>原日报的 <code>14zyz8e / 1el9iv8 / 1jh1vu0</code> 原帖均未成功读取，日期、热度与所谓购买原话不算核实。2026-07-14 RDWorks求助输入是SVG，2026-07-13家庭招牌求助要SVG；2026-10套料帖以及已有DXF的清理收费也属不同任务，<strong>只保留排除记录，不贡献主评分</strong>。<a href="evidence/current-reddit-original.json">旧帖读取</a>、<a href="evidence/current-recent-final.json">近期检索</a></p>
+<p>Arctic按近半年窗口请求失败，沿用site搜索回退，未抓到可做全量排序的帖子集；不造“高赞前N”与痛点出现次数。正文只报能读到的日期/票数，票数是抓取快照，不是固定值。原始与本次抓取分开留存，SERP正文及JSON统一读取最终判定；年龄只反映域名注册日期，不等于页面年龄或持续排名。<a href="evidence/final-decisions.json">最终判定</a></p>
+<h3 id="_11">可展开材料</h3>
+<ul>
+<li><a href="evidence/page-brief.md">页面简报：指定前三Title/H1/第一屏、我方Title/H1/H2</a></li>
+<li><a href="evidence/countries.md">各国明细</a>；<a href="evidence/keyword-full.md">扩词全表、状态、范围与SERP最终判断</a></li>
+<li><a href="evidence/serp-all.md">SERP逐条及缺席情况</a>；<a href="evidence/serp-original-2026-10-30.json">不可改写的原始快照</a></li>
+<li><a href="kw/adjacent.txt">相邻机会，只列表不计分</a>：SVG/PDF→DXF、通用矢量化、DXF清理、实物照片标定、照片雕刻、套料、G-code、工程重绘、文生DXF。</li>
+<li><a href="evidence/validation-plan.md">验证报价、成本边界、首付/复用/第二单/续费与停止条件</a></li>
+<li><a href="timing.txt">用时：本轮开始、结束与实际时长</a>。此前采集时间与本轮研究分开，不将批处理占位时间当实际工时。</li>
+</ul></section><section id="serp"><h2 class="sec">serp.md</h2><h1 id="serp-2026-11-01">SERP 最终判定（2026-11-01）</h1>
+<p>所有竞争结论以此表及 serp.json 的 final_decisions 为准。原始采集：2026-10-30；未取得完整十席，含重定向与偏题结果。年轻域名只作观察线索。</p>
+<table>
+<thead>
+<tr>
+<th>市场</th>
+<th>关键词</th>
+<th>范围</th>
+<th>月搜状态</th>
+<th style="text-align: right;">数值</th>
+<th>原始条数/已解析URL</th>
+<th>最终判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US</td>
+<td>png to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">1900</td>
+<td>9/9</td>
+<td>可参考的单次快照；不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">480</td>
+<td>9/9</td>
+<td>可参考的单次快照；不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>svg to dxf</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">1900</td>
+<td>9/9</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>US</td>
+<td>jpg to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">1000</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>jpeg to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">1000</td>
+<td>9/9</td>
+<td>竞争未取得：缺可核实落地页或意图；不得据年龄判难度</td>
+</tr>
+<tr>
+<td>US</td>
+<td>photo to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">170</td>
+<td>8/8</td>
+<td>竞争未取得：缺可核实落地页或意图；不得据年龄判难度</td>
+</tr>
+<tr>
+<td>US</td>
+<td>picture to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">170</td>
+<td>8/8</td>
+<td>竞争未取得：缺可核实落地页或意图；不得据年龄判难度</td>
+</tr>
+<tr>
+<td>US</td>
+<td>raster to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/8</td>
+<td>竞争未取得：缺可核实落地页或意图；不得据年龄判难度</td>
+</tr>
+<tr>
+<td>US</td>
+<td>bitmap to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">40</td>
+<td>8/8</td>
+<td>竞争未取得：缺可核实落地页或意图；不得据年龄判难度</td>
+</tr>
+<tr>
+<td>US</td>
+<td>bmp to dxf</td>
+<td>相邻：BMP 输入；本批只收 PNG/JPG</td>
+<td>返回正数</td>
+<td style="text-align: right;">40</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>US</td>
+<td>png to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">590</td>
+<td>9/9</td>
+<td>可参考的单次快照；不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">170</td>
+<td>7/7</td>
+<td>可参考的单次快照；不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>svg to dxf converter</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">590</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>US</td>
+<td>jpg to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">390</td>
+<td>9/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>photo to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">210</td>
+<td>7/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>raster to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image to dxf software</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image to dxf app</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image to dxf tool</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image to dxf generator</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>ai image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>ai png to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>ai jpg to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>6/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>raster to dxf software</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>png to dxf software</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>svg to dxf software</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image to dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>7/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>png to dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>jpg to dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>svg to dxf online</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/1</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>US</td>
+<td>free image to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>free png to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>free jpg to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>free svg to dxf converter</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/1</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image to dxf without signup</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image to dxf in browser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>convert image to dxf for laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>png to dxf laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>jpg to dxf for laser cutting</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>photo to dxf for laser cutting</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>svg to dxf for laser cutting</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>US</td>
+<td>raster to dxf for laser cutting</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image to dxf for cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>png to dxf for cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>jpg to dxf for cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>svg to dxf for cnc</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image to dxf for cnc router</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>dxf for lightburn</td>
+<td>排除：未指定图片输入，混有文件下载/导入意图</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image to dxf for lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>png to dxf for lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>jpg to dxf for lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>svg to dxf for lightburn</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image to dxf for rdworks</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>convert logo to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>png logo to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>jpg logo to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>convert silhouette to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>line drawing to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>sketch to dxf for laser cutting</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>stencil image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>clipart to dxf for laser cutting</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image outline to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>trace image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>auto trace image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>vectorize image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>vectorize png to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>vectorize jpg to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image to dxf closed contours</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image to dxf closed polylines</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image to dxf smooth curves</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image to dxf fewer nodes</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>png to dxf outline</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image to dxf in millimeters</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image to dxf in inches</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image to dxf to scale</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>US</td>
+<td>image to dxf exact size</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>png to dxf with dimensions</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>US</td>
+<td>svg to dxf preserve size</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>US</td>
+<td>svg to dxf polylines</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>US</td>
+<td>svg to dxf millimeters</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>png to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">390</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">140</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>svg to dxf</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">390</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>jpg to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">320</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>jpeg to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">320</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>photo to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">30</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>picture to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">30</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>raster to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>bitmap to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>bmp to dxf</td>
+<td>相邻：BMP 输入；本批只收 PNG/JPG</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>png to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">110</td>
+<td>9/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">40</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>svg to dxf converter</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">90</td>
+<td>9/2</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>jpg to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">90</td>
+<td>9/4</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>photo to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">50</td>
+<td>9/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>raster to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image to dxf software</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>7/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image to dxf app</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/3</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image to dxf tool</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>6/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image to dxf generator</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>ai image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>ai png to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>ai jpg to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>raster to dxf software</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>7/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>png to dxf software</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>svg to dxf software</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image to dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>png to dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>jpg to dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>svg to dxf online</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>free image to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>free png to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>free jpg to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>free svg to dxf converter</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/2</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image to dxf without signup</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image to dxf in browser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>convert image to dxf for laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>png to dxf laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>jpg to dxf for laser cutting</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>photo to dxf for laser cutting</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>svg to dxf for laser cutting</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/1</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>raster to dxf for laser cutting</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>7/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image to dxf for cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/3</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>png to dxf for cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>jpg to dxf for cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>svg to dxf for cnc</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/2</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image to dxf for cnc router</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>dxf for lightburn</td>
+<td>排除：未指定图片输入，混有文件下载/导入意图</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image to dxf for lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>png to dxf for lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>jpg to dxf for lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>svg to dxf for lightburn</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image to dxf for rdworks</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>convert logo to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>png logo to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>jpg logo to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>convert silhouette to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>line drawing to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>sketch to dxf for laser cutting</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>stencil image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>clipart to dxf for laser cutting</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image outline to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>trace image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>auto trace image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>vectorize image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>vectorize png to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>vectorize jpg to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image to dxf closed contours</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image to dxf closed polylines</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image to dxf smooth curves</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image to dxf fewer nodes</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>png to dxf outline</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image to dxf in millimeters</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image to dxf in inches</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image to dxf to scale</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>image to dxf exact size</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>png to dxf with dimensions</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>svg to dxf preserve size</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>svg to dxf polylines</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>svg to dxf millimeters</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>png to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">390</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">110</td>
+<td>8/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>svg to dxf</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">390</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>jpg to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">260</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>jpeg to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">260</td>
+<td>9/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>photo to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">40</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>picture to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">40</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>raster to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>bitmap to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>bmp to dxf</td>
+<td>相邻：BMP 输入；本批只收 PNG/JPG</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>png to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">70</td>
+<td>9/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">30</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>svg to dxf converter</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">90</td>
+<td>9/1</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>jpg to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">70</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>photo to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">40</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>raster to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image to dxf software</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image to dxf app</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>7/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image to dxf tool</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>6/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image to dxf generator</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>7/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>ai image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>ai png to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/3</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>ai jpg to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>raster to dxf software</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>png to dxf software</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>svg to dxf software</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image to dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>7/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>png to dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>jpg to dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>svg to dxf online</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>free image to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>free png to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>free jpg to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>free svg to dxf converter</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image to dxf without signup</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image to dxf in browser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>convert image to dxf for laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>png to dxf laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>jpg to dxf for laser cutting</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>photo to dxf for laser cutting</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/3</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>svg to dxf for laser cutting</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>raster to dxf for laser cutting</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>7/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image to dxf for cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>png to dxf for cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>jpg to dxf for cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>svg to dxf for cnc</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image to dxf for cnc router</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>dxf for lightburn</td>
+<td>排除：未指定图片输入，混有文件下载/导入意图</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image to dxf for lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>png to dxf for lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>jpg to dxf for lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>svg to dxf for lightburn</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image to dxf for rdworks</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>convert logo to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>png logo to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>jpg logo to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>convert silhouette to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>line drawing to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>sketch to dxf for laser cutting</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>stencil image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>clipart to dxf for laser cutting</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image outline to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>trace image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>7/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>auto trace image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>vectorize image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>vectorize png to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>vectorize jpg to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image to dxf closed contours</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image to dxf closed polylines</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image to dxf smooth curves</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image to dxf fewer nodes</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>png to dxf outline</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image to dxf in millimeters</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image to dxf in inches</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image to dxf to scale</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>image to dxf exact size</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>7/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>png to dxf with dimensions</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>svg to dxf preserve size</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>svg to dxf polylines</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>CA</td>
+<td>svg to dxf millimeters</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>png to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">260</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">140</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>svg to dxf</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">260</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>jpg to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">210</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>jpeg to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">210</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>photo to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">30</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>picture to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">30</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>raster to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>bitmap to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>7/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>bmp to dxf</td>
+<td>相邻：BMP 输入；本批只收 PNG/JPG</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>png to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">70</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">40</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>svg to dxf converter</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">50</td>
+<td>8/1</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>jpg to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">70</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>photo to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">50</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>raster to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image to dxf software</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>7/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image to dxf app</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image to dxf tool</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>6/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image to dxf generator</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>ai image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>ai png to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>ai jpg to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>raster to dxf software</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>7/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>png to dxf software</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>svg to dxf software</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/1</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image to dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>png to dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>jpg to dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>svg to dxf online</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>free image to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>free png to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>free jpg to dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>free svg to dxf converter</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image to dxf without signup</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image to dxf in browser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>convert image to dxf for laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>7/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>png to dxf laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>jpg to dxf for laser cutting</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>photo to dxf for laser cutting</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>svg to dxf for laser cutting</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>raster to dxf for laser cutting</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image to dxf for cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>png to dxf for cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>jpg to dxf for cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>svg to dxf for cnc</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image to dxf for cnc router</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>dxf for lightburn</td>
+<td>排除：未指定图片输入，混有文件下载/导入意图</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image to dxf for lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>png to dxf for lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>jpg to dxf for lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>svg to dxf for lightburn</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/1</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image to dxf for rdworks</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>convert logo to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>7/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>png logo to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>jpg logo to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>convert silhouette to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>line drawing to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>sketch to dxf for laser cutting</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>stencil image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>clipart to dxf for laser cutting</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image outline to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>7/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>trace image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>auto trace image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>vectorize image to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>vectorize png to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>vectorize jpg to dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image to dxf closed contours</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image to dxf closed polylines</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image to dxf smooth curves</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image to dxf fewer nodes</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>png to dxf outline</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image to dxf in millimeters</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image to dxf in inches</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image to dxf to scale</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>image to dxf exact size</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>png to dxf with dimensions</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>svg to dxf preserve size</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>svg to dxf polylines</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>AU</td>
+<td>svg to dxf millimeters</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bild in dxf umwandeln</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">320</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bild zu dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">140</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>dxf aus bild erstellen</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">40</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>png in dxf umwandeln</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">210</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>jpg in dxf umwandeln</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">390</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>jpeg in dxf umwandeln</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>svg in dxf umwandeln</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">320</td>
+<td>9/2</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>foto in dxf umwandeln</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">40</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>rasterbild in dxf umwandeln</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bitmap in dxf umwandeln</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bmp in dxf umwandeln</td>
+<td>相邻：BMP 输入；本批只收 PNG/JPG</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bild in dxf konverter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>7/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>png dxf konverter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>jpg dxf konverter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>svg dxf konverter</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>software bild in dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>7/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>programm bild in dxf umwandeln</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bild in dxf app</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bild in dxf online tool</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bild in dxf mit ki</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>png in dxf software</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>svg in dxf programm</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bild in dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>png in dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>jpg in dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>svg in dxf online</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bild in dxf kostenlos</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>png in dxf kostenlos</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>jpg in dxf kostenlos</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>svg in dxf kostenlos</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bild in dxf ohne anmeldung</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bild in dxf für laserschneiden</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>png in dxf für laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>jpg in dxf für laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>foto in dxf für laserschneiden</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>svg in dxf für laser</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bild in dxf für cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>png in dxf für cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bild in dxf für lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>png in dxf für lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>svg in dxf für lightburn</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>logo in dxf umwandeln</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>silhouette in dxf umwandeln</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>strichzeichnung in dxf umwandeln</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>skizze in dxf für laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bildkontur als dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bild vektorisieren dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>png vektorisieren dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bild automatisch nachzeichnen dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bild in dxf geschlossene konturen</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bild in dxf mit wenigen knoten</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bild in dxf maßstabsgetreu</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bild in dxf mit maßen</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>bild in dxf millimeter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>DE</td>
+<td>svg in dxf maßstab beibehalten</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>image en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">260</td>
+<td>7/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>convertir image en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">90</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>png en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">170</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>jpg en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">720</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>jpeg en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">720</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>svg en dxf</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">70</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>photo en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>image matricielle en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>bitmap en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>bmp en dxf</td>
+<td>相邻：BMP 输入；本批只收 PNG/JPG</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>convertisseur image en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">20</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>convertisseur png en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">30</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>convertisseur jpg en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">30</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>convertisseur svg en dxf</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">20</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>convertisseur photo en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>logiciel image en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>logiciel de conversion image en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>application image en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>outil image en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>7/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>convertir image en dxf avec ia</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>générer un dxf à partir d'une image</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>logiciel png en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>logiciel svg en dxf</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>image en dxf en ligne</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>png en dxf en ligne</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>jpg en dxf en ligne</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>svg en dxf en ligne</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>image en dxf gratuit</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>png en dxf gratuit</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>jpg en dxf gratuit</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>svg en dxf gratuit</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>image en dxf sans inscription</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>image en dxf pour découpe laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>png en dxf pour laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>jpg en dxf pour découpe laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>photo en dxf pour découpe laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>svg en dxf pour découpe laser</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>image en dxf pour cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>png en dxf pour cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>image en dxf pour lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>png en dxf pour lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>svg en dxf pour lightburn</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>convertir logo en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>convertir silhouette en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>dessin au trait en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>croquis en dxf pour découpe laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>image de pochoir en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>contour image en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>vectoriser image en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>vectoriser png en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>tracé automatique image en dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>image en dxf contours fermés</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>image en dxf moins de nœuds</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>image en dxf à l'échelle</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>image en dxf dimensions réelles</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>image en dxf en millimètres</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>FR</td>
+<td>svg en dxf conserver les dimensions</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>imagen a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">50</td>
+<td>7/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>convertir imagen a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">70</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>png a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">170</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>jpg a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">480</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>jpeg a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">20</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>svg a dxf</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">110</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>foto a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>imagen ráster a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>mapa de bits a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>bmp a dxf</td>
+<td>相邻：BMP 输入；本批只收 PNG/JPG</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>convertidor de imagen a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>conversor de imagen a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>convertidor de png a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>convertidor de jpg a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">20</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>convertidor de svg a dxf</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>programa para convertir imagen a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>software de imagen a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>aplicación para convertir imagen a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>herramienta de imagen a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>convertir imagen a dxf con ia</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>generar dxf a partir de imagen</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>programa para convertir png a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>programa para convertir svg a dxf</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>imagen a dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>png a dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>jpg a dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>svg a dxf online</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>imagen a dxf gratis</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>png a dxf gratis</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>jpg a dxf gratis</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>svg a dxf gratis</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>imagen a dxf sin registro</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>convertir imagen a dxf para corte láser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>png a dxf para láser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>jpg a dxf para corte láser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>foto a dxf para corte láser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>svg a dxf para corte láser</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>imagen a dxf para cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>png a dxf para cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>imagen a dxf para lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>png a dxf para lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>svg a dxf para lightburn</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>convertir logo a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>convertir silueta a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>dibujo a dxf para láser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>boceto a dxf para corte láser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>imagen de esténcil a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>contorno de imagen a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>vectorizar imagen a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>vectorizar png a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>trazado automático de imagen a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>imagen a dxf contornos cerrados</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>imagen a dxf con menos nodos</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>imagen a dxf a escala</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>imagen a dxf con medidas</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>imagen a dxf en milímetros</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>ES</td>
+<td>svg a dxf conservar tamaño</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>immagine in dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>convertire immagine in dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">40</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>png in dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">480</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>jpg in dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">590</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>jpeg in dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>svg in dxf</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">20</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>foto in dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>immagine raster in dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>bitmap in dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>bmp in dxf</td>
+<td>相邻：BMP 输入；本批只收 PNG/JPG</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>convertitore da immagine a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>convertitore png dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">50</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>convertitore jpg dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">110</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>convertitore svg dxf</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">20</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>convertitore foto dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>programma per convertire immagini in dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>software da immagine a dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>app per convertire immagini in dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>strumento per convertire immagini in dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>convertire immagine in dxf con ia</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>generare dxf da immagine</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/3</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>programma png in dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>programma svg in dxf</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>immagine in dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>png in dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>jpg in dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>svg in dxf online</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>immagine in dxf gratis</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>png in dxf gratis</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>jpg in dxf gratis</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>svg in dxf gratis</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>immagine in dxf senza registrazione</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>immagine in dxf per taglio laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/3</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>png in dxf per laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>jpg in dxf per taglio laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>foto in dxf per taglio laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>svg in dxf per taglio laser</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>immagine in dxf per cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>png in dxf per cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>immagine in dxf per lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>png in dxf per lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>svg in dxf per lightburn</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>convertire logo in dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>sagoma da foto in dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>disegno al tratto in dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>schizzo in dxf per taglio laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>immagine stencil in dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>contorno immagine in dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>vettorializzare immagine in dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>vettorializzare png in dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>ricalco automatico immagine dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>immagine in dxf contorni chiusi</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>immagine in dxf con pochi nodi</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>immagine in dxf in scala</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>immagine in dxf con dimensioni reali</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>immagine in dxf in millimetri</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>svg in dxf mantenere dimensioni</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>afbeelding naar dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>7/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>afbeelding omzetten naar dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>png naar dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">50</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>jpg naar dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">70</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>jpeg naar dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">20</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>svg naar dxf</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">30</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>foto naar dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>rasterafbeelding naar dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>bitmap naar dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>bmp naar dxf</td>
+<td>相邻：BMP 输入；本批只收 PNG/JPG</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>afbeelding naar dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>png naar dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>jpg naar dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>svg naar dxf converter</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>foto naar dxf converter</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>software afbeelding naar dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>programma afbeelding naar dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>app afbeelding naar dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/4</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>online tool afbeelding naar dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>afbeelding naar dxf met ai</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>7/1</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>dxf maken van afbeelding</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>programma png naar dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>programma svg naar dxf</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>afbeelding naar dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>png naar dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>jpg naar dxf online</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>svg naar dxf online</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>afbeelding naar dxf gratis</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>png naar dxf gratis</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>jpg naar dxf gratis</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>svg naar dxf gratis</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>afbeelding naar dxf zonder registratie</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>afbeelding naar dxf voor lasersnijden</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>已查询但未取得：SERP接口超时/空结果</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>png naar dxf voor laser</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>jpg naar dxf voor lasersnijden</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>foto naar dxf voor lasersnijden</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>svg naar dxf voor lasersnijden</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>afbeelding naar dxf voor cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>png naar dxf voor cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>afbeelding naar dxf voor lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>png naar dxf voor lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>svg naar dxf voor lightburn</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>logo omzetten naar dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>silhouet naar dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>lijntekening naar dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>schets naar dxf voor lasersnijden</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>sjabloon afbeelding naar dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>contour van afbeelding naar dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>afbeelding vectoriseren naar dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>png vectoriseren naar dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>afbeelding automatisch overtrekken naar dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>afbeelding naar dxf gesloten contouren</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>afbeelding naar dxf minder knooppunten</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>afbeelding naar dxf op schaal</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>afbeelding naar dxf met afmetingen</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>afbeelding naar dxf in millimeters</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>NL</td>
+<td>svg naar dxf afmetingen behouden</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 dxf 変換</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">110</td>
+<td>9/3</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像からdxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>png dxf 変換</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">110</td>
+<td>9/3</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>jpg dxf 変換</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">90</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>jpeg dxf 変換</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">110</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>svg dxf 変換</td>
+<td>相邻：SVG 输入不同</td>
+<td>返回正数</td>
+<td style="text-align: right;">90</td>
+<td>9/2</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>写真 dxf 変換</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>ラスタ画像 dxf 変換</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>ビットマップ dxf 変換</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>bmp dxf 変換</td>
+<td>相邻：BMP 输入；本批只收 PNG/JPG</td>
+<td>返回正数</td>
+<td style="text-align: right;">40</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 dxf 変換ソフト</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 dxf 変換アプリ</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>9/3</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 dxf 変換ツール</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 dxf コンバーター</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 dxf 変換 ai</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像からdxf 作成</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>png dxf 変換ソフト</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>jpg dxf 変換ソフト</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>svg dxf 変換ソフト</td>
+<td>相邻：SVG 输入不同</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>写真 dxf 変換ソフト</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 dxf 変換 オンライン</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>png dxf 変換 オンライン</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>jpg dxf 変換 オンライン</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>svg dxf 変換 オンライン</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 dxf 変換 無料</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>png dxf 変換 無料</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>jpg dxf 変換 無料</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>svg dxf 変換 無料</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 dxf 変換 登録不要</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 dxf 変換 ブラウザ</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 dxf 変換 レーザーカット</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>png dxf 変換 レーザー</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>jpg dxf 変換 レーザー</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>写真 dxf 変換 レーザー加工</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>svg dxf 変換 レーザー加工</td>
+<td>相邻：SVG 输入不同</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 dxf 変換 cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 dxf 変換 cncルーター</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 dxf 変換 lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>png dxf 変換 lightburn</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>svg dxf 変換 lightburn</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>ロゴ dxf 変換</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>シルエット dxf 変換</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>線画 dxf 変換</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>手描きイラスト dxf 変換</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>ステンシル画像 dxf 変換</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 輪郭抽出 dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 ベクター化 dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>png ベクター化 dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 自動トレース dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 ラスベク変換 dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 dxf 変換 閉じた輪郭</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 dxf 変換 頂点を減らす</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 dxf 変換 実寸</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 dxf 変換 寸法指定</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>画像 dxf 変換 ミリ単位</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>JP</td>
+<td>svg dxf 変換 サイズ維持</td>
+<td>相邻：SVG 输入不同</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>이미지 dxf 변환</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">30</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>이미지를 dxf로 변환</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>png dxf 변환</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">10</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>jpg dxf 변환</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>返回正数</td>
+<td style="text-align: right;">20</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>jpeg dxf 변환</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>svg dxf 변환</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>사진 dxf 변환</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>래스터 이미지 dxf 변환</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>비트맵 dxf 변환</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>bmp dxf 변환</td>
+<td>相邻：BMP 输入；本批只收 PNG/JPG</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>이미지 dxf 변환기</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>png dxf 변환기</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>jpg dxf 변환기</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>svg dxf 변환기</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>사진 dxf 변환기</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>이미지 dxf 변환 프로그램</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>이미지 dxf 변환 앱</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>8/0</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>이미지 dxf 변환 도구</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>ai 이미지 dxf 변환</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>이미지로 dxf 만들기</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>png dxf 변환 프로그램</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>jpg dxf 변환 프로그램</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>svg dxf 변환 프로그램</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>이미지 dxf 변환 온라인</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>png dxf 변환 온라인</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>jpg dxf 변환 온라인</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>svg dxf 변환 온라인</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>이미지 dxf 변환 무료</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>png dxf 변환 무료</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>jpg dxf 변환 무료</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>svg dxf 변환 무료</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>이미지 dxf 변환 회원가입 없이</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>이미지 dxf 변환 레이저 커팅</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>9/2</td>
+<td>竞争未取得：含未解析重定向；样本不足十条</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>png dxf 변환 레이저</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>jpg dxf 변환 레이저 커팅</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>사진 dxf 변환 레이저 커팅</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>svg dxf 변환 레이저 커팅</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>이미지 dxf 변환 cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>png dxf 변환 cnc</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>이미지 dxf 변환 라이트번</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>png dxf 변환 라이트번</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>svg dxf 변환 라이트번</td>
+<td>相邻：SVG 输入不同</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>로고 dxf 변환</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>실루엣 dxf 변환</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>선화 dxf 변환</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>손그림 dxf 변환</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>未返回</td>
+<td style="text-align: right;">未返回</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>스텐실 이미지 dxf 변환</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>이미지 윤곽선 dxf 변환</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>이미지 벡터화 dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>png 벡터화 dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>이미지 자동 트레이싱 dxf</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>이미지 dxf 변환 닫힌 윤곽선</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>이미지 dxf 변환 노드 줄이기</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>이미지 dxf 변환 실제 크기</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>이미지 dxf 변환 치수 지정</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>이미지 dxf 변환 mm 단위</td>
+<td>主任务候选：PNG/JPG 或图片泛称→DXF；激光子意图占比未取得</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>未查询（未过外围量门槛）</td>
+</tr>
+<tr>
+<td>KR</td>
+<td>svg dxf 변환 크기 유지</td>
+<td>相邻：SVG 输入不同</td>
+<td>供应商返回0</td>
+<td style="text-align: right;">0</td>
+<td>0/0</td>
+<td>相邻/排除；不贡献主评分</td>
+</tr>
+</tbody>
+</table></section><section id="sop-criteria"><h2 class="sec">sop-criteria.md</h2><p>【对齐需求发掘专员的筛选标准——这是本次调查的核心依据】
+其打分 5 项（各 1–5）：①需求真实 ②付费意愿 ③好服务（用户非专业、要求不高；不限 B 端，C 端也可以，B 端小老板只是加分；专业挑剔或出错要担大责任的扣分）④小团队做得动 ⑤形态简单（表单类）；①或②&lt;3 不推荐。原则：AI 时代赋能（AI 越强产品越好，用户不会因有 AI 就不用）；门槛：对标产品已验证 PMF——且 PMF 必须对得上<strong>当前切口</strong>，大品类有人付费不能直接证明这个小功能有人另付钱。
+初步报告须先钉死：谁、输入、输出、单一用户任务；相邻机会拆开，不混进同一条五项打分。</p>
+<p>你的任务是逐项核实/推翻它给的分数和证据，而不是另起一套标准：
+- 关卡1 核①：逐页打开原帖核对原话和日期（近半年优先），给出你核实后的分数。
+- 关卡2 核②+PMF：官网核实竞品价格、客户数、融资、流量；"有成熟对标产品在收钱"是通过信号，不是否决理由——但必须是当前切口的对标，不是相邻大品类。
+- 关卡3 核③④⑤+切入可行性：不要因为"已有竞品/低价竞品"就止损。只在以下情况止损：免费方案已足够好且用户满意、或头部产品价格已低到小团队无利可图、或差评里找不到任何可切入缺口、或研发/合规负担超出小团队。要明确写出小团队可切的缝隙及证据。
+- 关卡4 市场体量，关卡5 核"AI 时代赋能"是否成立。
+报告开头列一张表：5 项"专员原分 / 核实后分 / 关键证据"；首屏另给三维决策（需求／独立收费／SEO 优先级），总分可放附录。</p></section><section id="sop-v3"><h2 class="sec">sop-v3.md</h2><p>【入口铁律】新赛道必须先有需求发掘专员的初步报告与五项打分，再进入本 SOP 深挖。用户口头点题也先转需求发掘专员，禁止未经初步直接扩词/SERP/写报告。</p>
+<p>你是赛道深度调查员。需求来源报告：<strong>SRC</strong>。中文，精炼。每个数据附来源链接，查不到写"未找到"，严禁编造。
+核心原则：有竞品不是否决理由。竞品赚钱多说明市场被验证，做老二也可以。我们主打 SEO。
+团队在中国做出海：只做能远程成交的软件/SaaS 获客，不做必须本地履约的服务需求。</p>
+<p>【先钉死研究对象】报告开头必须固定：谁、输入是什么、输出是什么、本次只判断哪一个用户任务。
+- 相邻机会（相近但输入/输出不同）只列表，不贡献搜索量、付费证明或竞争评分。
+- 例：播客转文字 ≠ 已有文字稿→发布素材 ≠ 播客内容搜索，必须拆开。
+- 第一行一句话定位仍要写："这个产品帮助【什么人】，在【什么场景】下，解决【什么问题】。"标题用直白话，术语首次出现要解释。</p>
+<p>【第一步：核实赛道】确认需求真假（专员数据、原帖、竞品价格/客户数、Reddit Arctic Shift）。只有需求假或无人付费才停。用户原声要写清：什么用户、原话、抱怨的是哪一步、是否提过现用工具和付费。</p>
+<p>【第二步：调查关键词】
+1. <strong>按用户任务覆盖，不硬凑数量</strong>：先围绕已明确的用户任务找核心词、同义表达、具体场景词；确认相关后再扩市场。初筛可从几十个高相关词开始，不设「每种语言约 300」硬指标。
+2. 每个词都要能回答：搜这个词的人进入我们计划做的页面，能不能直接得到他想要的结果？不能 → 移到相邻机会或排除记录，不能因词里有同类行业词就硬套。
+3. 市场（只保留主要发达市场）：US、UK、CA、AU、DE、FR、ES、IT、NL、JP、KR。各国用当地语言查 Google 月搜索量。英语 en.txt 共用四英语市场；de/fr/es/it/nl/ja/ko 各自本地说法扩词。
+4. <strong>SERP 规则（2026-10-24 改）</strong>：
+   - <strong>核心需求词</strong>：无论月搜高低，都查实际搜索结果（确认意图、直接竞品、预期功能）。低量只影响 SEO 优先级，不能成为「不理解这个需求」的理由。
+   - <strong>外围扩展词</strong>：再用「该市场月搜 &gt; 200」控制调查成本；≤200 只记量。
+5. <strong>出海筛选（标配）</strong>：即使月搜&gt;200，若该词是「只有本地成交才能变现」的当地服务需求，也直接跳过 SERP，只记量并标注「本地服务跳过」。（保留找软件/系统/SaaS 的词。）
+6. <strong>搜索量记录</strong>：分清「返回正数 / 供应商返回 0 / 未返回 / 未查询」。没有查到数值，不能写成「未找到≤200」。</p>
+<p>【第三步：研究竞争格局】
+- <strong>按用户任务分组</strong>，再比较不同国家表现。同一任务的多种搜索表达合成一个需求组，不要「每个市场×关键词各写一套赛道结论」。
+- 用该国 Google 看前十；域名注册年龄保留为证据：<strong>近1年或近18个月≥2个、近18个月1个</strong> 仅标为观察线索（「样本中有年轻域名入榜，值得继续查」），<strong>不得直接升级为「新手友好／容易做」</strong>。还要看排名页满足什么需求、功能特点、有无可比小站、我们能否交付。DR 仅参考。样本不足完整前十时，必须写明样本条数，不得下满额结论。
+- 意图是否对口；该词头部/中小玩家与切入点。
+- 正文、serp.json、公开页必须读同一份<strong>最终判定表</strong>；旧标签可留在原始数据，但不得被后续汇总当最终结论。</p>
+<p>【第四步：投入产出与结论】
+- <strong>首屏三维决策</strong>（先于总分）：①有没有相关需求？②当前切口能否独立收费（待验证／已证明）？③适不适合优先靠 SEO 做站？
+- 总分满分 100 可留作内部筛选记录，放附录；五项评分里若未直接评 SEO 获客可行性，不要用总分冒充 SEO 优先级。
+- 验证指标必须分开：<strong>首付、复用、续费</strong>。月订阅看首付+使用、到续订周期再看续费；按次收费才看「第二单是否再买」。不要把套餐内再用当成再付。
+- 写清最小验证动作与停止条件；记录用时。</p>
+<p>【关键词作战表（2026-10-26 Cavill 定：报告核心=指导做哪些关键词）】
+- 报告顺序：第一行一句话定位 → 大白话结论 3-5 句 → <strong>关键词作战表（放最前面的核心章节）</strong> → 需求证据 → 能否单独收费 → 下一步验证 → 附录评分与用时（开始/结束/总时长）。
+- 扩词必须含头部宽词（如 xx app / xx software / ai xx / xx generator / xx tool 及各国当地说法），不能只查长尾；头部宽词一律进 core.txt 查 SERP。
+- 作战表按用户任务分组，每词一行：关键词｜市场/语言｜月搜量（返回正数/供应商返回0/未返回/未查询）｜竞争难度（数据商 KD，或据 SERP 前十：有无大站/专门工具站/论坛、近 1 年-18 个月新域名数；不满十条注明条数）｜搜索意图｜建议（首页主词／工具落地页／长尾内容页／不做）｜优先级 P0/P1/P2｜理由。
+- 表后必须给：「建站先做哪 3-5 个词、各对应什么页面」清单；「不做的词及原因」；「补查了哪些、仍未拿到数据的词」。
+- 只查 US/UK/CA/AU/DE/FR/ES/IT/NL/JP/KR，各用当地语言；只留工具/App/AI/软件意图，丢掉只能本地上门履约的词。域名年龄只是观察线索，不写「新手友好」。</p>
+<p>【报告结构三层】
+1. 一分钟看懂：研究哪个需求、当前建议、最关键支持/反对理由、哪个未知会改决定、下一步验证。
+2. 判断依据：场景与问题 → 现有解法与痛点 → 需求证据与反证 → 能承接的词与直接竞品 → 最小验证与停止条件。每节先结论再少量证据；每条重要证据说明支持什么、不能证明什么。
+3. 可展开证据与方法：完整国家/词表、剔除词及原因、旧评分修正、域名核验、DNS/重试/计时、SOP 与原始文件。影响决策的限制（如某国数据缺失）须留在正文，细节日志可附录。</p>
+<p>【验收】看完首屏应能说清：谁要什么、我们交付什么、有什么证据、为什么值得或不值得继续、下一步验证什么。说不清就继续改；关键词数量和报告长度不算完成标准。</p>
+<p>serp.py：准备 kw 目录（en.txt/de.txt/…），然后
+  python3 /workspace/research/serp.py <kw目录> &lt;输出目录&gt;
+核心词清单可单独标记，脚本侧逐步支持「核心词无视 200 门槛」；在脚本未改完前，人工保证核心词必做 SERP。</p>
+<p>【交付】报告里只写 https 外链；不要写 /workspace 本机路径。证据文件打进同名 zip，附件发 zip，并附公开网页链接。每个核心结论要有可打开的证据入口。</p>
+<h2 id="2026-10-27-report-format-v3md">2026-10-27 深挖流程更新（采纳哥飞顾问建议，报告格式见 report-format-v3.md）</h2>
+<ol>
+<li>开工卡：先收需求发掘专员的「初筛→深挖卡」（模板 handoff-card-template.md）。缺用户任务、核心词、付费证据类型任一项则退回；其它字段可写未取得。</li>
+<li>管线顺序：需求翻译 → 批量预筛（量/CPC/competition）→ 关键词难度（KD 无数据源，写未取得）→ 搜索量核实（规划师口径；12月趋势取不到写未取得）→ SERP 解密（十席+最弱占位）→ 域名概况（DR/RDAP；流量/出词无接口则写未取得或引公开估算并注明来源）→（可选）估值与 Stripe 引荐（目前无数据源，跳过）→ 一行结论 + 拒绝什么。额度用尽就停，不编。</li>
+<li>词族分析必做：父词 vs 拉量内页词；首页只绑最纯商业词。</li>
+<li>主词红海禁止硬刚，必须给替代尾词对比表。</li>
+<li>阈值 KD 0–29、KGR&lt;0.25、CPC&lt;$0.1、链接预算为社群经验值，一律标「待项目复核」，不当硬标准打分。KGR 需 allintitle 结果数，serp.py/PXAny 不提供，标未取得。</li>
+<li>验收节点天数不编；老站内页仅在主题对口时建议；AI 品类保留压力测试。</li>
+</ol></section><section id="files"><h2 class="sec">证据文件（原始数据）</h2><ul><li><a href="kw/adjacent.txt">kw/adjacent.txt</a> (2 KB)</li><li><a href="kw/core.txt">kw/core.txt</a> (2 KB)</li><li><a href="kw/de.txt">kw/de.txt</a> (1 KB)</li><li><a href="kw/en.txt">kw/en.txt</a> (1 KB)</li><li><a href="kw/es.txt">kw/es.txt</a> (1 KB)</li><li><a href="kw/fr.txt">kw/fr.txt</a> (1 KB)</li><li><a href="kw/it.txt">kw/it.txt</a> (1 KB)</li><li><a href="kw/ja.txt">kw/ja.txt</a> (1 KB)</li><li><a href="kw/ko.txt">kw/ko.txt</a> (1 KB)</li><li><a href="kw/nl.txt">kw/nl.txt</a> (1 KB)</li><li><a href="report.md">report.md</a> (24 KB)</li><li><a href="serp.json">serp.json</a> (1515 KB)</li><li><a href="serp.md">serp.md</a> (117 KB)</li><li><a href="sop-criteria.md">sop-criteria.md</a> (1 KB)</li><li><a href="sop-v3.md">sop-v3.md</a> (8 KB)</li><li><a href="timing.txt">timing.txt</a> (0 KB)</li><li><a href="图片转激光DXF-56分.md">图片转激光DXF-56分.md</a> (24 KB)</li></ul></section></div></body></html>
